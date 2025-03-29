@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .name-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+  
+  .letter {
+    margin: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Styling each letter with unique colors and effects */
+  #I { color: #3498db; font-family: 'Verdana', Geneva, sans-serif; }
+  #A { color: #e74c3c; font-family: 'Arial Black', sans-serif; }
+  #R { color: #2ecc71; font-family: 'Georgia', serif; }
+  #L { color: #f39c12; font-family: 'Georgia', serif; }
+  
+  #A2 { color: #9b59b6; font-family: 'Courier New', Courier, monospace; }
+  #N { color: #1abc9c; font-family: 'Courier New', Courier, monospace; }
+  #S { color: #e67e22; font-family: 'Georgia', serif; }
+  #E { color: #5880a8; font-family: 'Courier New', Courier, monospace; }
+  #L2 { color: #f1c40f; font-family: 'Times New Roman', Times, serif; }
+  #O { color: #16a085; font-family: 'Georgia', serif; }
+  #I2 { color: #4616a0; font-family: 'Verdana', Geneva, sans-serif; }
+  #O2 { color: #cc4869; font-family: 'Verdana', Geneva, sans-serif; }
+  
+  #Y { color: #8e44ad; font-family: 'Courier New', Courier, monospace; }
+  #E2 { color: #c0392b; font-family: 'Arial Black', sans-serif; }
+  #L3 { color: #f39c12; font-family: 'Arial Black', sans-serif; }
+  #A3 { color: #2ecc71; font-family: 'Times New Roman', Times, serif; }
+  #S4 { color: #ca9443; font-family: 'Georgia', serif; }
+  
+  #S3 { color: #3498db; font-family: 'Courier New', Courier, monospace; }
+  #S2 { color: #e74c3c; font-family: 'Arial Black', sans-serif; }
+  #U { color: #9b59b6; font-family: 'Courier New', Courier, monospace; }
+  #H { color: #f39c12; font-family: 'Verdana', Geneva, sans-serif; }
+  
+  /* Hover effect for each letter */
+  .letter:hover {
+    transform: scale(1.2);
+    color: #e74c3c; /* Change to a highlighted color on hover */
+  }
